@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(16, 15, 20);
+}
+
+/* parent container */
+.parent-container {
+    border-radius: 20px;
+    background-color: rgb(23, 29, 36);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20rem auto;
+    padding: 2rem 2rem;
+    max-width: 400px;
+    
+}
+
+.icon {
+    background-color: rgba(224, 228, 240, 0.158);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: .5rem;
+    width: 2rem;
+}
+
+.icon svg {
+    display: block;
+}
+
+h2 {
+    color: white;
+    font-size: 25px;
+    margin-top: 2rem;
+    font-family: "Roboto", sans-serif;
+}
+
+p {
+    color: grey;
+    padding: 0rem 0rem;
+    margin-top: 1rem;
+    font-family: "Poppins", sans-serif;
+}
+
+.whole-numbers {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    letter-spacing: 10px;
+    margin-top: 1rem;
+}
+
+.number {
+    background-color: rgba(224, 228, 240, 0.192);
+    border-radius: 50%;
+    color: rgb(218, 223, 223);
+    position: relative;
+    padding: 1.5rem;
+    
+}
+
+.number:hover {
+    background-color: teal;
+}
+
+.number span {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-22%, -50%);
+}
+
+button {
+    background-color: hsl(29, 97%, 49%);
+    border: none;
+    border-radius: 30px;
+    color: black;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    letter-spacing: 3px;
+    margin-top: 2rem;
+    padding: 1rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: aquamarine;
+
+}
+
+.highlight {
+    background-color: hsl(29, 100%, 50%);
+    color: black;
+}
+
+/* Responsive Design */
+@media only screen and (max-width: 500px) {
+    
+}
